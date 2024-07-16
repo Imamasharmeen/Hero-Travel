@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+span {
+    color: rgb(255, 84, 0);
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*default style  border: 2px solid red; */
+* {
+    margin: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 4rem auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name {
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    font-size: 2.2rem;
+    font-weight: 800px;
+    color: rgb(19, 19, 24);
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.banner {
+    border: 4 px solid rgb(43, 255, 0);
+
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.banner-container {
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 100px;
+}
+
+.banner-button {
+    border: 4 px solid rgb(40, 212, 6);
+    margin-top: 2rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    backdrop-filter: blur;
+}
+
+.input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border-style: none;
+
+}
